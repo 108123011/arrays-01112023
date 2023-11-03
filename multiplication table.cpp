@@ -1,14 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,n,k;
-	printf("enter the value of number");
+	int n,i;
 	scanf("%d",&n);
-	scanf("%d",&k);
-	for(i=1;i<=k;i++)
-	{
-		j=n*i;
-		printf("%d*%d=%d\n",n,i,j);
+                  for(i=1;i<=10;i++)
+                  {
+                  	printf("%d\n",n*i);
 	}
 	return 0;
 }
+                  
